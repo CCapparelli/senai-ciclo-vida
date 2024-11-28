@@ -1,6 +1,5 @@
-import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
-
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+  import { bootstrapApplication } from '@angular/platform-browser';
+  import { CicloVidaComponent } from './app/ciclo-vida/ciclo-vida.component';
+  
+  bootstrapApplication(CicloVidaComponent).catch(err => console.error(err));
+  
